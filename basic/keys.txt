@@ -1,0 +1,24 @@
+esc - exits any previously pressed keys
+~ - used with cd ~ to go to home directory
+! - known as BANG
+# - used in script files / config files to comment out anything 
+$ - "invariable" designation in shell scripts
+^ - known as CARRET, refers to anything at the begining of something (like in nginx)
+& - will put a script or process in the background
+( - open parentheses 
+) - close parantheses
+- - hyphen, used for specifying options like -store
+{ - curly braces
+} - curly braces
+[ - opening bracket
+] - closing bracket
+Enter - also known as CARRIAGE RETURN
+:wq - saves a file
+| - pipe, often used in linux to combine commands together or give an output from the first command to the second command
+\ - backslash, used for windows paths
+/ - forwardslash, used in linux for paths
+< - input
+> - output (overrwrite to file)
+>> - append to file
+. - dot or period
+right Ctrl key - often in virtual boxes if the mouse is trapped inside the window you can use the right ctrl key to escape, sometimes in linux right ctrl will do a different function to left ctrl

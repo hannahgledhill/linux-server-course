@@ -1,0 +1,7 @@
+Linux code is derived from unix
+Unix is mostly used by Sun/Oracle, now used by Solaris
+Linux is CenntOS, Ubuntu etc. open source 
+Unix supports far fewer file systems (hardware/processor configuration)
+
+vs windows:
+linux doesn't need to rebooted, is ideal for multi-tasking without consuming loads of memory and is much more secure

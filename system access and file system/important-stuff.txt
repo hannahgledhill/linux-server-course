@@ -1,0 +1,10 @@
+root is the default super user
+it is the most powerful account that can create, modify, delete accounts and make changes to system configuration files
+root can even delete the entire OS!
+
+linux is CASE SENSITIVE
+
+avoid using spaces when creating files and directories. it will be very hard to navigate into directories and access files.
+
+linux kernel is not an OS. it is a small software within Linux OS  that takes commands from users and passes them to system hardware or peripherals
+

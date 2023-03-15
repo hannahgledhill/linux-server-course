@@ -1,0 +1,12 @@
+can access through console (direct - literally plugging in and viewing through a monitor) or remotely (connect to OS remotely over the network using IP address)
+
+from windows machine can use putty client or git bash
+windows 10 or newer can use windows's SSH built in client through command prompt
+
+from mac can open up terminal and type ssh -l <username> <IP address>
+
+can get the ip address of a server by typing "ip addr"
+
+can also use ifconfig
+want enp0s3 line, inet will give you the ipv4 address, inet6 will give you the ipv6 address
+

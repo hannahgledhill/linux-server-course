@@ -1,0 +1,2 @@
+snapshots allow you to save the current state of the VM in case you need to come back and do a restore
+takes a snapshot of the entire file directory and everything
