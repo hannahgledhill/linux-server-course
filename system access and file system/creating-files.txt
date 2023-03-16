@@ -1,0 +1,19 @@
+touch creates and empty file
+cp copies an existing file
+vi creates a file and launches the vi editor
+
+mkdir - make directory, creates a directory
+
+touch <filename> creates a basic text file
+
+can do "ls -ltr" to order files with oldest at top and newest at bottom
+
+"cp jerry lex" - copies the file jerry into a new file called lex
+
+"vi homer" will create a file called homer and launch vi
+to get out of vi type :wq!
+
+"touch bart lisa marge" can create 3 files at once
+
+"mkdir seinfeld" creates a directory called seinfeld
+can chain like with the touch command

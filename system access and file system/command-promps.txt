@@ -1,0 +1,9 @@
+[root@MyFirstLinuxVM ~]#
+
+this is an example of a command prompt
+root is the username
+then @ then host name (the server)
+then the current working directory
+# if you are root, $ if you are a user
+
+to get a prompt back can do ctrl c

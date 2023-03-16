@@ -1,0 +1,10 @@
+absolute paths always begin with / - they start at the root directory eg. cd /var/log/samba
+
+relative path does not start with / and defines a location relative to your current position
+eg. in /
+cd var
+cd log
+cd samba
+
+can't chain relative paths so can't do cd var/log/samba
+

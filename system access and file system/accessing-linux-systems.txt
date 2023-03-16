@@ -9,4 +9,3 @@ can get the ip address of a server by typing "ip addr"
 
 can also use ifconfig
 want enp0s3 line, inet will give you the ipv4 address, inet6 will give you the ipv6 address
-

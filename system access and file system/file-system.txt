@@ -1,0 +1,47 @@
+operating systems generally change and improve the file system structure
+
+/ is the root directory, equivalent to C: drive in windows
+
+/boot contains the files used for boot loading, this is what the OS is looking for when it starts up
+/root is not the same as the actual root (/), its like the home directory of the root user
+/dev stores system devices (peripherals)
+/etc is for configuration files -- back up files before changing them!
+/bin is a shortcut to /usr/bin, stores everyday user commands (instructions for commands like cd pwd)
+/sbin is a shortcut to /usr/sbin - stores system/filesystem commands
+/opt is for third-party add-on applications (not part of the OS apps)
+/proc used in create file for all the running processes, cleared on shut-down (like RAM)
+/lib is shortcut to usr/lib, C programming library files attached to all the commands   strace -e open pwd tells you which libraries are used in a command
+/tmp is for you to use for temporary files
+/home is where user directories are located
+/run stores system daemons - silent processes that run in the background, triggered automatically without interaction from user eg. running cron jobs, tracks process ID etc.
+/mnt used to mount external filesystems like NFS
+/media is used for cdroms, will run cds or virtual machine cd drives
+opt where programs are running
+sbin where commands and scripts are located
+/var is where log files are located
+
+cd changes directory
+cd .. backs up one level
+pwd prints the current working directory
+ls lists all the files in the current working directory
+
+ls -l
+
+columns:
+Type  # of Links  Owner  Group  Size  Month  Day  Time  name
+
+Type
+anything that starts with - is a file
+anything that starts with d is a directory
+l is a link
+c is a special file or device file eg. peripherals 
+s is a socket
+p is a named pipe 
+b is a block device
+nothing is a regular text file
+
+# of hard links - number of immediate sub-directories it has, its parent directories and itself
+
+Month Day Time is the time of creation
+
+

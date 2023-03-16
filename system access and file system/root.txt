@@ -1,0 +1,3 @@
+1. root is an account/username, most powerful account on linux
+2. root is the /, the very first directory in linux, this is "the root directory"
+3. /root, this is the home directory of the root user - this is "the root home directory"
