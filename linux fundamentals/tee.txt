@@ -1,0 +1,7 @@
+tee command is used to store and view at the same time the standard output
+so shows you the output to the console AND stores it in a file
+
+"ls -l | tee <filename>"
+can output to multiple files with <filename> <filename2> etc.
+
+-a appends rather than overwrites the target file

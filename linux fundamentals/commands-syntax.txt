@@ -1,0 +1,16 @@
+command option(s) argument(s)
+
+options modify the way that a command works
+usually consist of a hyphen or dash followed by a single letter
+some commands accept multiple options which can usually be grouped together after a single hyphen
+
+some commands assume a default argument if none is supplied
+arguments are optional for some commands and required by others
+
+ls is the command
+
+might have options like ls -l, ls -lt, ls -ltr
+might have an argument to see only the details of a single file ls -l <filename>
+
+rm -r <directory> recursively removes a directory and all its contents
+

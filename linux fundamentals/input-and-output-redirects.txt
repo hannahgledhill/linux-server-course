@@ -1,0 +1,20 @@
+there are 3 redirects in linux:
+stdin - standard input
+stdout - standard output
+stderr - standard error
+
+STDOUT
+by default when you run a command its output goes to the terminal
+the output of a command can be routed to a file using the > or >> symbol
+
+STDIN
+input is used when feeding file contents to a file
+eg. mail -s "Office memo" allusers@abc.com < memoletter
+adds the contents of the memoletter file as an input to the mail command
+
+STDERR 
+if commands produce an error, we can log them somewhere rather than having them just stored on screen
+errors have a file code of 2
+so "<command> <options> <arguments> 2> <errorfile>" will log ONLY error outputs of the command to the error file
+
+

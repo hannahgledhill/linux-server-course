@@ -1,0 +1,14 @@
+find . -name "filename"
+will search in the current directory (.), good to do from home directory, or can do from root
+iterates over the file system to locate files
+
+locate <filename>
+uses a prebuilt database which must be regularly updated with updatedb (updated automatically every 
+few hours by the OS), though it is much faster
+
+NOTE if locate does not work, as root run "updatedb" and also make sure you have "mlocate" package installed
+to check: rpm -qa | grep mlocate
+to install: yum install mlocate
+
+
+

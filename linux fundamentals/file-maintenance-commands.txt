@@ -1,0 +1,11 @@
+cp - copies the contents from one file to another
+rm - removes a file, rm -r for recursive on directories
+mv - moves a file to a destination path, can rename file by moving to same location just put desired filename instead of destination file path
+mkdir - make directorr
+rmdir - remove directory, same as rm -r
+chgrp - change group
+chown - change user owners
+rm -Rf will forcefully remove all sub-directories and their contents as well
+
+
+

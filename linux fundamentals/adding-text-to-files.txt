@@ -1,0 +1,27 @@
+3 ways
+
+vi editor
+
+redirect with > or >>
+
+echo > or >>
+
+REDIRECTS
+
+echo "hello world" > <filename>
+adds the text hello world to the file
+overwrites ENTIRE contents of file
+
+echo "hello world" >> <filename>"
+APPENDS the text to the file
+
+cat <filename> reads content of the file
+
+can output random things to files
+
+like ls -ltr > fileinfo
+
+rather than the displaying the result of ls -ltr in the console, will log it to fileinfo
+really useful for logging!
+can do "date >> filename" will append the current date time to the file!
+

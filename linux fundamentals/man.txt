@@ -1,0 +1,2 @@
+can do "man" then any command to get the man page on the command
+press q to get out

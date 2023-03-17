@@ -1,0 +1,28 @@
+provides an additional, more flexible permission mechanism, can give permissions
+for any user or group to any disc resource
+
+eg. don't want a user to be added to the root group but do want them to be able to
+access a specific file that is owned by root
+don't want ALL others to be able to read it, just this one specific user
+
+setfacl
+"setfacl -m u:<user>:<permission eg. rwx> <full file path>"
+
+can give permission to a single file to a specific Group
+"setfacl -m g:<group>:<permission eg. rwx> <full file path>"
+
+use -Rm for recursive (m is for modify)
+
+to remove a specific entry
+"setfacl -x u:<user> <full file path>"
+
+to remove all entries
+"setfacl -b <full file path>"
+
+can get full file paths with pwd
+
+getfacl
+gives information about existing permissions
+"getfacl <filepath>"
+
+NOTE need x permission to delete files, not just write

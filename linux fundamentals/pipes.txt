@@ -1,0 +1,17 @@
+pipe is used by the shell to connect the output of one command directly to the input of 
+another command
+
+"command [arguments] | command2 [arguments]"
+
+passes the standard output of command to command 2
+
+eg. "ls -l | tee [filename]"
+
+"ls -ltr | more"
+more command gives the output of a file one page at a time
+launches the MORE viewer, hit space to page, enter to come back
+
+"ls -l | tail -1"
+tail would give you the last n line(s) of the standard output
+
+

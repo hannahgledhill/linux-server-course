@@ -1,0 +1,10 @@
+"whatis <command>"
+will give basic information about the command
+
+"<command> --help"
+gives more detailed help info about the command
+
+"man <command>"
+opens the full man page on the command
+space to page, q to quit
+

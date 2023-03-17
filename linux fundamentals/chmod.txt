@@ -1,0 +1,59 @@
+file and directory permissions
+
+there are 3 types of permissions: 
+read (r)
+write (w) 
+execute (x) (running a program/script)
+
+each permission can be controlled at 3 different levels:
+u - user
+g - group
+o - other (everyone else)
+
+doing ls -l 
+might see rwxrwxrwx, this means every group has all 3 permissions
+or rw-rw-r-- this means users can read and write, groups can read and write and other can
+only read
+
+chmod changes permissions
+
+can remove specific permissions
+eg. "chmod g-w <filename>"
+removes the write permission from the group level
+
+"chmod a-r <filename>"
+removes read permission from ALL groups
+
+"chmod u+rwx <filename>"
+adds read, write and ex permissions to user
+
+"chmod ugo+r <filename>"
+adds the read permission to user, group and others
+
+if a directory doesn't have the executable permission, people won't be able to open it!!!
+
+NUMERIC MODE
+
+0 - no permission ---
+1 - execute only --x
+2 - write only -w-
+3 - execute and write -wx
+4 - read only r--
+5 - read and execute r-x
+6 - read and write rw-
+7 - read, write and execute rwx
+
+numbers go in order of user, group, others
+
+so 700 is user has rwx, groups and others have nothing
+777 everybody has everything
+
+"chmod 777 <filename>"
+
+can google "online chmod calculator" where you can tick boxes and it will give you the code you need
+
+
+
+
+
+

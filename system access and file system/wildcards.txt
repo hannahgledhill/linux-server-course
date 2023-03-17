@@ -1,0 +1,11 @@
+WILDCARDS - can use with ANY command
+
+* represents 0 or more characters eg. test* or *xyz
+? represents a single characters eg. te?t would find test and text
+{} represents a range of characters eg. touch abcd{1-3}-xyz will create 3 files acbd1-xyz, 
+abcd2-xyz and abcd3-xyz
+\ escape character
+^ the beginning of the line
+$ the end of the line
+
+can use ls -l *[cd]* will find any files that contain the characters c and d next to eachother
