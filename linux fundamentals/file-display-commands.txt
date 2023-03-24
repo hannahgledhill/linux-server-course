@@ -1,0 +1,7 @@
+display the content of a file
+
+cat - views the entire content of a file
+more <filename> - views one page at a time - press spacebar to move through, to get back type q
+less - views page at a time but can use up arrow and down arrow to move one line at a time
+head -2 filename - view top 2 lines of file
+tail -2 filename - view last 2 lines of file

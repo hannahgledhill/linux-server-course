@@ -1,0 +1,105 @@
+CUT
+
+cut parts of files or piped data and print the result to standard output (or pipe to something else)
+
+cut -c1 filename - get first character of every line in file
+cut -c1,3,5,7 filename - get first, third, 5th, 7th characters of each line
+cut -c1-3 filename - get first three characters of each line
+cut -c1-3,6-8 filename - get first three, and then charactres 6 to 8
+
+cut -b1-3 filename - get first 3 bytes of file
+
+cut -d: -f 6 /etc/passwd
+-d is for delimeter
+: is the delimeter - saying this is field data delimitted by a certain character, could do -d, etc.
+-f 6 - get the 6th field (after the 5th colon)
+/etc/passwd is the filename
+
+can do -f 1-3 would give first 3 fields
+
+can use cut with piped output
+eg. doing ls -l and want to get just the first 3 permissions (the user permissions) 
+in eg. drwxr-xr-x etc.
+
+can do ls -l | cut -c2-4
+
+can use space as a delimeter to get permissions and filename only
+
+
+AWK
+
+used to extract fields from a file or output
+
+awk '{print $1}' filename - gets first column/field of each line assuming it's using a space delimeter
+ls -l | awk '{print $1,$3}' - print only columns 1 and 3 from ls -l - much easier than cut!
+awk '{print $NF}' - gets last column
+
+awk '/Jerry/ {print}' filename - prints the line or lines containing the search characters Jerry
+
+awk -F: '{print $1}' filename - uses a specified delimeter :, returns first column
+
+replace words
+eg. echo "Hello Tom" | awk '{$2="Adam"; print $0}' - replaces second word with Adam, print $0 is print everything
+bear in mind if you do this in a multiline file would replace second word of EVERY line
+
+awk 'length($0) > 15' filename - find lines more than 15 bytes (usually characters) in length
+
+ls -l | awk '{if($NF == "seinfeld") print $0;}' - prints ls -l output only for the filename seinfeld
+
+ls -l | awk '{print NF}' - print number of fields
+
+
+
+GREP/EGREP
+
+global regular expression print - prints any lines which match a specified pattern
+used to search within files/outputs
+
+grep Seinfeld seinfeld-characters - searches for the string Seinfeld in the file seinfeld-characters
+grep -c keyword filename - search and count for keyword 
+grep -i keyword filename - searches for keyword CASE INSENSITIVE
+grep -n keyword filename - displays the matched lines AND their line numbers
+grep -v keyword filename - gets all the lines that do NOT match the keyword (can do -vi for case insensitive)
+
+can combine eg. grep keyword file | awk '{print $1}'
+
+can grep from an output not just a file
+eg. ls -l | grep Desktop - show ls -l only for the desktop folder
+
+egrep -i "keyword|keyword2" filename - search for keyword OR keyword 2
+
+
+SORT/UNIQ
+
+sort sorts in alphabetical order
+uniq filters out the repeated or duplicate lines
+
+sort filename - prints the sorted version
+sort -r filename - reverse sort
+sort -k2 filename - sort by second field
+ls -l | sort -k9 - sorts output in alphabetical order on filename
+
+sort filename | uniq  - shows only unique entries
+have to sort first so that duplicates are next to eachother
+
+sort filename | uniq -c - shows number of times each entry appears next to it
+sort filename | uniq -d - show only the repeated lines
+
+
+WC
+
+generates line count, word count and byte count
+
+wc filename - shows line count, word count and byte count separated by spaces
+wc -l filename - shows only line count
+wc -w filename - shows only word count
+wc -c file - shows only byte count
+
+CAN'T DO WC ON A DIRECTORY, only on a file or output
+BUT can do like ls -l | wc -l to get number of files/directories because it is counting the lines in the text output of ls -last
+
+ls -l | grep drw | wc -l - show only directories (grep drw) and count how many
+
+
+
+
