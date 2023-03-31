@@ -1,0 +1,15 @@
+TAR - puts a bunch of files into one .tar container but doesn't actually compress them
+GZIP - compresses a file
+gzip -d OR gunzip - uncompress a file
+
+eg. put all files in home directory into 1 file
+
+tar cvf filename.tar path
+or can just be in the directory and do tar cvf filename.tar .
+the . means tar everything in the current working directory
+
+tar xvf filename.tar to extract everything into the current directory
+
+gzip filename.tar will compress the file
+gunzip filename.tar.zip will unzip and leave you with the tar
+

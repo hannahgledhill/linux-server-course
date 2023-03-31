@@ -1,0 +1,10 @@
+can shrink or extend the size of a file to the specified size
+NOT compressing - this will actually CHOP the file and you will lose
+any chopped data
+
+truncate -s 10 filename
+truncates the file to 10 bytes
+
+then could truncate -s 60 filename
+will increase the file size to 60 bytes
+generally adds a bunch of random @ characters at the end to make it bigger

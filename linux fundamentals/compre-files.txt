@@ -1,0 +1,5 @@
+DIFF - compares line by line
+CMP - compares byte by byte
+
+diff filename1 filenae2
+
