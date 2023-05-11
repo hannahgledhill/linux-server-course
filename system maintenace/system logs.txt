@@ -1,0 +1,10 @@
+/var/log is where all the system logs groups
+
+boot - log when system reboots
+messages - most useful one, basically everything
+cron - activity logs of cron jobs, mostly just shows that it replacing
+maillog - information from sendmail daemon
+
+can do grep -i error messages
+will find all the errors in the messages file -- really useful!!!
+

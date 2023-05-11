@@ -1,0 +1,8 @@
+kill can kill groups of services which can be tricky with systemctl
+
+kill <PID>
+kill -l - gets the list of kill options (known as signals)
+kill -1 - restarts the process
+kill -9 - forcefully kill the process
+killall <PID> - kills the process and all related processes
+

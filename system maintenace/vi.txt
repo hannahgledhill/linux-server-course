@@ -1,0 +1,13 @@
+i - insert
+Esc - escape out of any mode
+r - replace
+d - delete
+:q! - quit without saving
+:wq! - quit and save
+vi <filename> - either opens or creates the filename
+shift zz - saves and exits the filename
+dd - delets the current line
+u - undoes
+/<term> - searches for and places the cursor at the search term
+sed - replacing a string in afile with a newstring
+can find and delete a line by using sed to replace it with nothing

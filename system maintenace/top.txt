@@ -1,0 +1,5 @@
+like ps but ordered by memory consumption
+can see %CPU and %MEM consumption
+
+top then press k - will kill a process by PID within the top session
+top then M and P = sort all processes by memory usage

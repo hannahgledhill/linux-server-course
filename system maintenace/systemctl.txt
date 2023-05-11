@@ -1,0 +1,12 @@
+used to start an application like double clicking on an icon
+
+eg. systemctl start <name>
+
+systemctl enable <service> - enables service to start at boot
+systemctl restart <service> - restarts service if you have made changes
+systemctl list-units --all - lists all currently running services
+systemctl stop <service> - stops service
+systemctl disable <service> - removes service from boot
+systemctl status <service> - gets status of process including its PID
+
+systemctl reboot - will reboot entire machine

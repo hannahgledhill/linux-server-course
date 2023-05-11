@@ -1,0 +1,18 @@
+a dynamic-named value that can affect the way running processes will behave on a computer
+
+to view all environment variables do "printenv"
+
+to view one environment variable do echo $SHELL to view the shell evnrionment variable
+
+to set the environment variable do export TEST=1 to set an environment variable called TEST and set it equal to 1
+
+that will be an environment variable for the CURRENT SESSION only
+to set an environment  variable permanently, have to modify the .bashrc file
+
+vi .bashrc
+TEST='blah blah'
+export TEST
+
+this is in /etc/bashrc
+take a copy first!
+

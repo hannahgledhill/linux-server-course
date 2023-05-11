@@ -1,0 +1,6 @@
+top - shows cpu and mem info for processes
+df -h - disk usage info
+du - shows file usage and which files are taking up all the space
+netstat -rnv find out gateway information, subnet mask etc.
+cat /proc/cpuinfo - show cpu usage stats
+cat /proc/memino - show memory usage stats

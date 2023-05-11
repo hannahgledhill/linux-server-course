@@ -1,0 +1,14 @@
+application - service like apache
+script - something written and packaged to be executed, eg. might install an application
+process - applications or scripts can generate one or multiple processes
+daemon - a process that runs continuously in the background and is always listening to inputs
+threads - a process can run one or multiple threads 
+job - created by a scheduler to run an application or server
+
+systemctl - runs a service
+ps - see what processes are running on your systemctl
+top - see running processes by load (ie. the most expensive process) - like task manager
+kill <name or id> - kills the process by name or pid
+crontab - used to schedule processes or services, ie. creates jobs
+at. - similar to chron but it is a one-off scheduled process that will only run once, not repeatedly
+

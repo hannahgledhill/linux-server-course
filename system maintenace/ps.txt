@@ -1,0 +1,6 @@
+"process status"
+
+ps -ef - shows all running processes
+will show all running processes and their ids and names
+
+ps -u <username> - will show all the processes run by a username

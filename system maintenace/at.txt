@@ -1,0 +1,19 @@
+schedules a job that will run at a specific time but only once
+
+at HH:MM AM/PM ddmmyy (date is optional)
+
+atq - list all the entries
+atrm # - remove an entry by number
+atd - similar to crond this is the daemon that manages the at jobs
+systemctl status atd - to manage the atd service
+
+eg. at 4:45 PM
+echo "This is my first at entry" > at-entry (put the output in a file called at-entry)
+<use Ctrl D to exit write mode>
+
+can do at 4PM + 4 days to run 4 days from now
+at now
+at now +5 hours
+at 8:00 AM Sun (will find the next sunday)
+at 8:00 AM next month
+

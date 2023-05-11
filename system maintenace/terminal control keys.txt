@@ -1,0 +1,13 @@
+CTRL+u - erase everything you've just typed on the command line
+CTRL+c - stop/kill current command or process
+CTRL+z - suspend a command
+CTRL+d - exit from an interactive process or editor
+
+clear - clears the screen
+exit - quits the session or shell user session
+script - stores terminal activities in a log file that can be named by a user
+eg. script logfile-activity.log
+then do whatever you do, all your commands and output will be stored in the file
+exit will exit stop writing that file, then you would need to exit again to end the session
+
+

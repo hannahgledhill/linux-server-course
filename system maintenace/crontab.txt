@@ -1,0 +1,28 @@
+crontab -e -- edits the crontab table
+crontab -l -- list the crontab entries
+crontab -r - remove the crontab
+crond - crontab daemon/service that manages scheduling
+
+systemctl status crond - manage the crond service
+
+have to enter minute (0-59) hour (0-22) day of the month (1-31) month (1-12) day of the week (0-6 sunday to saturday) then command to executed
+
+eg. crontab -e 
+20 16 * * * echo "This is my first crontab entry"
+<Esc and then :w:q to write and quit out of cron editor>
+
+
+* means every
+
+there are 4 different types of cron jobs:
+hourly
+daily
+weekly
+monthly
+
+can actually just write a script and put it inside the cron job directories and they will be run at those intervals
+
+/etc/cron.(directory)
+
+
+
