@@ -1,0 +1,5 @@
+kernel interfaces between hardware and software
+takes commands from the shell (either gui or terminal) and talks to the hardware inside the computer
+shell and kernel together make up the OS
+shell and applications are the software
+kernel enables software to talk to hardware

@@ -1,0 +1,6 @@
+all commands you run are recorded in the shell history
+
+run history
+
+can re-run commands using their command number
+eg. !406

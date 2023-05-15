@@ -1,0 +1,30 @@
+a shell script is an executable file that can carry out automated tasks for youruns sequentially
+
+the first line of a shell script dictates the shell itself
+so #!/bin/bash, this says it is a bash script
+comments are indicated with #
+commands echo, cp, grep, > output to file etc.
+statements if, while, for etc. to put login in the code
+
+should have executable permissions (eg. -rwx r-x r-x)
+scripts always have to be called from an absolute path
+eg. /home/userdir/script
+or if you are in the folder can do ./script
+
+start off with vi scriptname
+i to insert, then start typing
+or write locally and upload by ftp
+
+remember to then set the executable permissions!
+chmod a+x scriptname
+
+DEFINING VARIABLES
+
+a='Hannah'
+b='Pippa'
+c='Charles'
+
+echo "My name is $a, I am married to $c and my best friend is $b"
+if single quotes don't work try double quotes
+
+

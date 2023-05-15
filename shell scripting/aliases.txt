@@ -1,0 +1,20 @@
+you can create aliases for common commands, like mini functions
+
+alias ls="ls - al"
+alias pl="pwd; ls"
+alias tell="whoami; hostname; pwd"
+alias dir="ls -l | grep ^d"
+alias lmar="ls -l | grep Mar"
+alias wpa="chmod a+w"
+alias d="df -h | awk '{print \$6'} | cut -cl-4"
+
+can then run the alias command and it will run the defined commands for you
+
+so just run tell and that will run the full sequence
+
+BUT alias only lasts for as long as the session
+can store aliases as either User or Global
+define user aliases in /home/user/.bashrc
+define global aliases in /etc/bashrc
+just type your alias def at the bottom of the file
+would need to start a new session to see the difference

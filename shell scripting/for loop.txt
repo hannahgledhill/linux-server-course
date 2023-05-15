@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for i in 1 2 3 4 5
+do
+    echo "Welcome $1"
+done
+
+# delete 5 files named 1 to 5
+
+for i in (1..5)
+do
+    rm $I
+done

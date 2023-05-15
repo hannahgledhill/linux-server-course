@@ -1,0 +1,9 @@
+can receive inputs through user through "read"
+
+echo what is your name?
+read username (waits for user input, will assign to variable name)
+echo (one echo leaves a blank line)
+echo Hello $username
+
+can assign linux values to variables eg. a=`hostname` (must use backticks)
+

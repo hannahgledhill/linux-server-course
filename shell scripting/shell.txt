@@ -1,0 +1,14 @@
+interfaces between users and the kernel
+either a gui or the CLI/bash, it is how you are interacting with the OS
+
+echo $0 will tell you which shell you are in
+
+TYPES OF SHELLS
+
+gnome and kde are desktop gui environments for linux
+main command line shell is called sh, also bash 
+also csh and tcsh which uses c and c++ as their base
+ksh (korn shell) adds a few complex things
+
+can do cat /etc/shells to see all the shells installed on your system
+
