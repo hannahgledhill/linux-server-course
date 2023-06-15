@@ -9,7 +9,7 @@ have to enter minute (0-59) hour (0-22) day of the month (1-31) month (1-12) day
 
 eg. crontab -e 
 20 16 * * * echo "This is my first crontab entry"
-<Esc and then :w:q to write and quit out of cron editor>
+<Esc and then :wq to write and quit out of cron editor>
 
 
 * means every

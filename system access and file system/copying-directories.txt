@@ -1,4 +1,4 @@
 "cp -R <source_folder> <destination_folder>"
 have to have the -R which will recursively copy all files and folders within the source folder
 
-can rename the destination folder at the same time like "cp -R config /tmp/config-copy" creates a new folder config-copy in tmp
+can rename the destination folder at the same time like "cp -R config /tmp/config-copy" creates a new folder config-copy in tmp 
